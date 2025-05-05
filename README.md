@@ -1,8 +1,12 @@
-# 🎈 Blank app template
+# Document Classifier System
 
-This is a document classifier system that classifies documents into different categories. It uses machine learning algorithms to classify the documents based on their content.
+This is a document classifier system that classifies documents into different categories. It uses machine learning algorithms to classify the documents based on their content.It classifies the uploaded document to match a common classification.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://doc-classifier-inai3.streamlit.app/)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+
+
+
+The Document Classification system is still under development.
 
 ### How to run it on your own machine
 
@@ -17,3 +21,5 @@ This is a document classifier system that classifies documents into different ca
    ```
    $ streamlit run streamlit_app.py
    ```
+
+
