@@ -1,6 +1,7 @@
 # Document Classifier System
 
-This is a document classifier system that classifies documents into different categories. It uses machine learning algorithms to classify the documents based on their content.It classifies the uploaded document to match a common classification.
+made with ❤️ by Aadarsh, Aditya , and  Ritesh.  
+Try Now !
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
 

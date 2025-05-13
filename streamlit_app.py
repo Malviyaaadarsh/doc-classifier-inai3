@@ -53,3 +53,4 @@ st.write("\n")
 st.write(
     "Made with ❤️ by Aadarsh , Aditya and Ritesh."
 )
+st.write("Try Now!")
