@@ -1,6 +1,6 @@
 # 🎈 Blank app template
 
-A simple Streamlit app template for you to modify!
+This is a document classifier system that classifies documents into different categories. It uses machine learning algorithms to classify the documents based on their content.
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://doc-classifier-inai3.streamlit.app/)
 
