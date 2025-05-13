@@ -1,11 +1,10 @@
 import streamlit as st
 
 st.title("Document Classifier System")
-
-st.write("\n Model still under development by raaa labs.\n")
-
-
-
+st.write(
+    "Made with ❤️ by Aadarsh , Aditya and Ritesh."
+)
+st.write("Try Now!")
 
 st.write("### Upload your document here")
 uploaded_file = st.file_uploader(
@@ -54,3 +53,12 @@ st.write(
     "Made with ❤️ by Aadarsh , Aditya and Ritesh."
 )
 st.write("Try Now!")
+
+
+
+
+st.write("\n")
+st.write("\n")
+st.write(
+    "Made with ❤️ by Aadarsh , Aditya and Ritesh."
+)
