@@ -47,12 +47,6 @@ st.write(
     "- Natural Language Processing\n"
     "- Optical Character Recognition (OCR)\n"
 )
-st.write("\n")
-st.write("\n")
-st.write(
-    "Made with ❤️ by Aadarsh , Aditya and Ritesh."
-)
-st.write("Try Now!")
 
 
 
