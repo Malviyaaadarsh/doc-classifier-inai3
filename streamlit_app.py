@@ -6,6 +6,11 @@ st.write(
 )
 st.write("Try Now!")
 
+st.write("\n Model still under development by raaa labs.\n")
+
+
+
+
 st.write("### Upload your document here")
 uploaded_file = st.file_uploader(
     "Upload a file",
