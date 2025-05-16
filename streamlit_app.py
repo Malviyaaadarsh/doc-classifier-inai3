@@ -27,15 +27,26 @@ if uploaded_file is not None:
         file_name="classification_result.txt",
         mime="text/plain",
     )
+st.markdown(" Select the type of document you usually deal with")  
+genre = st.radio(
+    "What type of document you usually deal with ? ",
+    ('Bills', 'Resume', 'Notices','Business','Technical','Legal','Reseach Paper','Others'),
+    label_visibility="collapsed",)
+if genre != 'Others':
+    st.markdown('You selected '+ genre)
+else:
+    st.write("You select others. Please specify the type of document you usually deal with.")
+    st.text_input("Please specify the type of document you usually deal with.", key="other_genre")
+    
 st.markdown("#### About the project")
 st.markdown(
     "This is a document classifier system that classifies documents into different categories. It uses machine learning algorithms to classify the documents based on their content."
 )
 st.markdown("#### How to use the project")
 st.markdown(
-    "1. Upload a document in PDF, DOCX or TXT format.\n"
-    "2. Click on the 'Classify' button to classify the document.\n"
-    "3. Download the classification result."
+    "- Upload a document in PDF, DOCX or TXT format.\n"
+    "- Click on the 'Classify' button to classify the document.\n"
+    "- Download the classification result."
 )
 st.markdown("#### Technologies used")
 st.markdown(
