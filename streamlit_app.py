@@ -1,25 +1,18 @@
 import streamlit as st
 
 st.title("Document Classifier System")
-st.write(
-    "Made with ❤️ by Aadarsh , Aditya and Ritesh."
-)
-st.write("Try Now!")
 
-st.write("\n Model still under development by raaa labs.\n")
+st.caption("\n #### [ Model still under development by Air labs. ][Stay Tuned!]  \n")
 
-
-
-
-st.write("### Upload your document here")
+st.markdown("#### Upload your document here")
 uploaded_file = st.file_uploader(
     "Upload a file",
-    type=["pdf", "docx", "txt"],
+    type=["pdf", "docx", "txt","xls"],
     label_visibility="collapsed",
 )
 if uploaded_file is not None:
     bytes_data = uploaded_file.read()
-    st.write("File uploaded successfully!")
+    st.caption("File uploaded!")
     st.write("## File Content")
     st.write(bytes_data.decode("utf-8", errors="ignore"))
     st.write("## Classify Document")
@@ -34,18 +27,18 @@ if uploaded_file is not None:
         file_name="classification_result.txt",
         mime="text/plain",
     )
-st.write("## About the project")
-st.write(
+st.markdown("#### About the project")
+st.markdown(
     "This is a document classifier system that classifies documents into different categories. It uses machine learning algorithms to classify the documents based on their content."
 )
-st.write("## How to use the project")
-st.write(
+st.markdown("#### How to use the project")
+st.markdown(
     "1. Upload a document in PDF, DOCX or TXT format.\n"
     "2. Click on the 'Classify' button to classify the document.\n"
     "3. Download the classification result."
 )
-st.write("## Technologies used")
-st.write(
+st.markdown("#### Technologies used")
+st.markdown(
     "- Streamlit\n"
     "- Python\n"
     "- Machine Learning\n"
@@ -56,8 +49,8 @@ st.write(
 
 
 
-st.write("\n")
-st.write("\n")
-st.write(
+st.markdown("\n")
+st.markdown("\n")
+st.markdown(
     "Made with ❤️ by Aadarsh , Aditya and Ritesh."
 )
