@@ -21,12 +21,11 @@ This is a document classifier system that classifies documents into different ca
 ## Technologies used
 
 1.Streamlit
-  ```
+
 2.Python
-  ```
+
 3.Machine Learning
-  ```
+
 4.Natural Language Processing
-  ```
+
 5.Optical Character Recognition (OCR)
-  ```
