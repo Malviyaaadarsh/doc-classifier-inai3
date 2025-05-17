@@ -1,6 +1,6 @@
 import streamlit as st
 st.set_page_config(page_title="Document Classifier System", page_icon=":guardsman:", initial_sidebar_state="expanded",layout="wide")
-st.title("Document Classifier System")
+st.title("Document Classifier System ")
 
 st.caption("\n ## [ Model still under development by Air labs. ][Stay Tuned!]  \n")
 
@@ -37,7 +37,17 @@ if genre != 'Others':
 else:
     st.write("You select others. Please specify the type of document you usually deal with.")
     st.text_input("Please specify the type of document you usually deal with.", key="other_genre")
-    
+
+
+st.text_area( "Try writing a text in the text box below and see how the document classifier system classifies it.",height=100, key="text_input",max_chars=250,placeholder="Write your text here...")
+if st.button("Classify Text", key="classify_text_button"):
+    text_input = st.session_state.text_input
+    # Here you would call your classification function
+    st.caption("Classifying...")
+    # Simulate a classification result
+    classification_result = "None"  # Replace with actual classification logic
+    st.write(f"The text is classified as: **{classification_result}**")
+
 st.markdown("#### About")
 st.markdown(
     "This is a document classifier system that classifies documents into different categories. It uses machine learning algorithms to classify the documents based on their content. \n "
