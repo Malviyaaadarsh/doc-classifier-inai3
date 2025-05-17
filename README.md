@@ -18,4 +18,15 @@ This is a document classifier system that classifies documents into different ca
    $ streamlit run streamlit_app.py
    ```
 
+## Technologies used
 
+1.Streamlit
+  ```
+2.Python
+  ```
+3.Machine Learning
+  ```
+4.Natural Language Processing
+  ```
+5.Optical Character Recognition (OCR)
+  ```

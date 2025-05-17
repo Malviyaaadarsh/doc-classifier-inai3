@@ -1,8 +1,8 @@
 import streamlit as st
-
+st.set_page_config(page_title="Document Classifier System", page_icon=":guardsman:", initial_sidebar_state="expanded",layout="wide")
 st.title("Document Classifier System")
 
-st.caption("\n #### [ Model still under development by Air labs. ][Stay Tuned!]  \n")
+st.caption("\n ## [ Model still under development by Air labs. ][Stay Tuned!]  \n")
 
 st.markdown("#### Upload your document here")
 uploaded_file = st.file_uploader(
@@ -31,37 +31,26 @@ st.markdown(" Select the type of document you usually deal with")
 genre = st.radio(
     "What type of document you usually deal with ? ",
     ('Bills', 'Resume', 'Notices','Business','Technical','Legal','Reseach Paper','Others'),
-    label_visibility="collapsed",)
+    label_visibility="collapsed",horizontal=True)
 if genre != 'Others':
     st.markdown('You selected '+ genre)
 else:
     st.write("You select others. Please specify the type of document you usually deal with.")
     st.text_input("Please specify the type of document you usually deal with.", key="other_genre")
     
-st.markdown("#### About the project")
+st.markdown("#### About")
 st.markdown(
     "This is a document classifier system that classifies documents into different categories. It uses machine learning algorithms to classify the documents based on their content."
 )
-st.markdown("#### How to use the project")
+st.markdown("#### How to use this App")
 st.markdown(
     "- Upload a document in PDF, DOCX or TXT format.\n"
     "- Click on the 'Classify' button to classify the document.\n"
     "- Download the classification result."
 )
-st.markdown("#### Technologies used")
-st.markdown(
-    "- Streamlit\n"
-    "- Python\n"
-    "- Machine Learning\n"
-    "- Natural Language Processing\n"
-    "- Optical Character Recognition (OCR)\n"
-)
-
-
-
 
 st.markdown("\n")
 st.markdown("\n")
-st.markdown(
-    "Made with ❤️ by Aadarsh , Aditya and Ritesh."
+st.caption(
+    "#### Made with ❤️ by Aadarsh , Aditya and Ritesh."
 )
