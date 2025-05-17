@@ -6,7 +6,7 @@ This is a document classifier system that classifies documents into different ca
 #### [The Project is still under the development.]
 
 
-[![Live Link ](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+[![Live Link ](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://doc-classifier-inai3.streamlit.app/)
 
 ### How to run it on your own machine
 
