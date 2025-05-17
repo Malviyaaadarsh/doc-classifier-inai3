@@ -30,7 +30,7 @@ if uploaded_file is not None:
 st.markdown(" Select the type of document you usually deal with")  
 genre = st.radio(
     "What type of document you usually deal with ? ",
-    ('Bills', 'Resume', 'Notices','Business','Technical','Legal','Reseach Paper','Others'),
+    ('Bills', 'Resume', 'Notices','Business','Technical','Legal','Reseach Paper','Invoice','Others'),
     label_visibility="collapsed",horizontal=True)
 if genre != 'Others':
     st.markdown('You selected '+ genre)
@@ -40,7 +40,10 @@ else:
     
 st.markdown("#### About")
 st.markdown(
-    "This is a document classifier system that classifies documents into different categories. It uses machine learning algorithms to classify the documents based on their content."
+    "This is a document classifier system that classifies documents into different categories. It uses machine learning algorithms to classify the documents based on their content. \n "
+    "The system is designed to help users quickly classify documents and save time in the process. \n"
+    "The system is still under development and will be updated with more features in the future.\n"
+    "The system is designed to be user-friendly and easy to use. Users can upload documents in different formats and get the classification result in a few clicks.\n"
 )
 st.markdown("#### How to use this App")
 st.markdown(
@@ -49,8 +52,16 @@ st.markdown(
     "- Download the classification result."
 )
 
+
+
 st.markdown("\n")
-st.markdown("\n")
+st.markdown(
+    "#### Disclaimer"
+)
+st.markdown(
+    "This is a prototype of a document classifier system. The classification results may not be accurate and should not be used for any critical decision making. \n"
+    "The App store no information of the User and doesn't ask for any permission. \n"
+)
 st.caption(
     "#### Made with ❤️ by Aadarsh , Aditya and Ritesh."
 )
