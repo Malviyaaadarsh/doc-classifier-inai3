@@ -2,7 +2,7 @@ import streamlit as st
 st.set_page_config(page_title="Document Classifier System", page_icon=":guardsman:", initial_sidebar_state="expanded",layout="wide")
 st.title("Document Classifier System ")
 
-st.caption("\n ## [ Model still under development by Air labs. ][Stay Tuned!]  \n")
+st.caption("\n ## [ Model still under development by Aari labs. ][Stay Tuned!]  \n")
 
 st.markdown("#### Upload your document here")
 uploaded_file = st.file_uploader(
@@ -57,9 +57,9 @@ st.markdown(
 )
 st.markdown("#### How to use this App")
 st.markdown(
-    "- Upload a document in PDF, DOCX or TXT format.\n"
+    "- Upload a document in PDF format. \n"
     "- Click on the 'Classify' button to classify the document.\n"
-    "- Download the classification result."
+    "- Write something in the text box and see how the text classifier classify it.\n"
 )
 
 
@@ -71,7 +71,4 @@ st.markdown(
 st.markdown(
     "This is a prototype of a document classifier system. The classification results may not be accurate and should not be used for any critical decision making. \n"
     "The App store no information of the User and doesn't ask for any permission. \n"
-)
-st.caption(
-    "#### Made with ❤️ by Aadarsh , Aditya and Ritesh."
 )
